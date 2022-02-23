@@ -1,0 +1,82 @@
+
+body{
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  font-weight: bold;
+  background-image: url('https://images.unsplash.com/photo-1555410298-c37e7ba128b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTN8MTcwODI3Nnx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: cover;
+}
+input{
+  height: 25px;
+  font-size: 1.5rem;
+  width: 350px;
+  border-radius: 7px;
+  border : 1px grey solid;
+
+}
+label{
+  margin-top: 10px;
+  width:400px;
+
+}
+#sucessMessage{
+  font-size: 1.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  display: none;
+  width:400px;
+  margin: 0 auto;
+  border-radius: 3px;
+  text-align: center;
+  color:#fff;
+  background-color: #91C483;
+}
+.signup{
+  height: 40px;
+  font-size: 1rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  margin-left: 46%;
+  margin-top: 4%;
+  border-radius: 7px;
+
+}
+.signup:hover{
+  color:#fff;
+  background: grey;
+}
+.container{
+  width:50%;
+  margin-left: 25%;
+  margin-top: 15%;
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+@media (max-width: 1020px){
+  .container{
+    margin-left: 20%;
+    margin-top: 50%;
+    border: none;
+  }
+  .signup{
+    margin : 0 auto;
+    width:150px;
+    margin-top: 30%;
+    margin-left: 41%;
+  }
+  body{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  input{
+    height: 28px;
+    font-size: 2rem;
+    width: 260px;
+    border-radius: 5px;
+    border : 1px grey solid;
+  }
+  label{
+    color:#fff;
+  }
+}
